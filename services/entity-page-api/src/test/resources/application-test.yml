@@ -1,0 +1,6 @@
+# Test profile: relaxed timeouts for WireMock
+resilience4j:
+  timelimiter:
+    configs:
+      default:
+        timeoutDuration: 5000ms
